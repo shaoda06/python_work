@@ -1,2 +1,8 @@
+#----------- idea -----------
+*.iml
 .idea/
+*.ipr
+*.iws
+#----------- Other -----------
 __pycache__/
+.DS_Store
