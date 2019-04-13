@@ -3,6 +3,8 @@
 .idea/
 *.ipr
 *.iws
+#----------- vscode-----------
+.vscode/
 #----------- Other -----------
 __pycache__/
 .DS_Store
