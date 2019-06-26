@@ -4,9 +4,10 @@
 # Call the function once using positional arguments to make a shirt. Call the
 # function a second time using keyword arguments.
 
-def make_shirt(size, msg):
-	print("The size will be: " + size)
-	print("The text will be: " + msg + "\n")
 
-make_shirt("L", "I Love U")
-make_shirt(msg="I Love U", size="L")
+def make_shirt(size, text):
+    print("Size: " + size + " Text: " + text)
+
+
+make_shirt("L", "Text1")
+make_shirt(size="L", text="Text2")
