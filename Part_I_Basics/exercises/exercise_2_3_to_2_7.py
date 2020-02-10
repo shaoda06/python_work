@@ -1,11 +1,12 @@
-# 2-3. Personal Message: Store a person’s name in a variable, and print a message
-# to that person. Your message should be simple, such as, “Hello Eric,
-# would you like to learn some Python today?”
+# 2-3. Personal Message: Store a person’s name in a variable, and print a
+# message to that person. Your message should be simple, such as, “Hello
+# Eric, would you like to learn some Python today?”
 name_2_3 = "Eric"
 print("Hello, " + name_2_3 + ", would you like to learn some Python today?")
+print(f"Hello, {name_2_3}, would you like to learn some Python today?")
 
-# 2-4. Name Cases: Store a person’s name in a variable, and then print that person’s
-# name in lowercase, uppercase, and titlecase.
+# 2-4. Name Cases: Store a person’s name in a variable, and then print that
+# person’s name in lowercase, uppercase, and titlecase.
 name_2_4 = "Eric"
 print(name_2_4.lower())
 print(name_2_4.upper())
@@ -17,14 +18,16 @@ print(name_2_4.title())
 # Albert Einstein once said, “A person who never made a
 # mistake never tried anything new.”
 name_2_5 = "Albert Einstein"
-print(
-    name_2_5 + " once said, \"A person who never made a mistake never tried anything new.\"")
+msg = " once said, \"A person who never made a mistake never tried anything " \
+      "new.\""
+print(name_2_5 + msg)
 
-# 2-6. Famous Quote 2: Repeat Exercise 2-5, but this time store the famous person’s
-# name in a variable called famous_person. Then compose your message
-# and store it in a new variable called message. Print your message.
+# 2-6. Famous Quote 2: Repeat Exercise 2-5, but this time store the famous
+# person’s name in a variable called famous_person. Then compose your message
+# and store it in a new variable called message. Print your message. 
 name_2_6 = "Albert Einstein"
-message_2_6 = name_2_6 + " once said, \"A person who never made a mistake never tried anything new.\""
+message_2_6 = name_2_6 + "once said, \"A person who never made a mistake " \
+                         "never tried anything new.\" "
 print(message_2_6)
 
 # 2-7. Stripping Names: Store a person’s name, and include some whitespace
